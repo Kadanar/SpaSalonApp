@@ -1,0 +1,11 @@
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:SpaSalon.Maui.Views"
+    x:Class="SpaSalon.Maui.AppShell">
+
+    <ShellContent
+        Title="SPA"
+        ContentTemplate="{DataTemplate views:MainPage}" />
+
+</Shell>
